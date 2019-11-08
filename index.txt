@@ -4,6 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+    crossorigin="anonymous"></script>
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 
@@ -39,6 +44,7 @@
             <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, a. Eius, provident. A aliquid possimus similique numquam exercitationem nostrum id perspiciatis, dignissimos minus voluptatem dolore, necessitatibus nulla libero nihil blanditiis.
             </p>
+<H1>Developer1</H1>
         </div>
     </div>
     <div class="row">
@@ -49,6 +55,11 @@
         </div>
     </div>
 </div>
-        
+<script>
+    $(document).ready(function(){
+        $('.sidenav').sidenav();
+    }); 
+</script>
+
 </body>
 </html>
